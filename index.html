@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DREAMYFLOW PCs - Best PC you can DREAM OF</title>
+    <link rel="icon" type="image/x-icon" href="media/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="marquee">
+        <marquee direction="left" scrollamount="12">
+            Our builds now feature the latest NVIDIA RTX 40 series!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PC Giveaway on 5/8/2023 be sure to sign up!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For every purchase of a PC, we will be issuing a free copy of Starfield to you!
+        </marquee>
+    </div>
+    <div id="navbar">
+        <header>
+            <nav class="navbar">
+                <a href="index.html" class="nav-branding"><img src="media/favilogo.png" alt="favilogo" id="faviconlogo"></a>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="gamingpc.html" class="nav-link">GAMING PCs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aboutus.html" class="nav-link">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="event.html" class="nav-link">EVENT</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar">.</span>
+                    <span class="bar">.</span>
+                    <span class="bar">.</span>
+                    <script src="hamburger.js"></script>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div id="carousel">
+        <!--image slider start-->
+        <div class="slider">
+            <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+            <!--slide images start-->
+            <div class="slide first">
+                <img src="media/carouselimg1.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="media/carouselimg2.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="media/carouselimg3.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="media/carouselimg4.png" alt="">
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+        <!--image slider end-->
+    
+        <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4){
+            counter = 1;
+            }
+        }, 5000);
+        </script>
+    </div>
+
+    <div id="cards">
+        <br>
+        <br>
+        <h2 id="checkoutthese">Looking for a PC? Check these out!</h2>
+        <br>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <div class="card h-100">
+                    <h3 class="card-title">Entry Level</h3>
+                    <img src="media/entry_level.png" class="card-img-top" alt="Entry">
+                    <div class="card-body">
+                      <a href="gamingpc.html" class="btn btn-primary">View More</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card h-100">
+                    <h3 class="card-title">Medium Level</h3>
+                    <img src="media/medium.png" class="card-img-top" alt="Medium">
+                    <div class="card-body">
+                      <a href="gamingpc.html" class="btn btn-primary">View More</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card h-100">
+                    <h3 class="card-title">High Level</h3>
+                    <img src="media/highend.png" class="card-img-top" alt="High">
+                    <div class="card-body">
+                      <a href="gamingpc.html" class="btn btn-primary">View More</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="certs">
+        <br><br>
+        <h1>Singapore's Favorite Custom PC Company</h1>
+        <img src="media/hardwz.png" alt="HardWare Zone">
+        <img src="media/geeks.png" alt="Geeks culture">
+        <img src="media/straits.png" alt="Straits Times">
+        <img src="media/powerup.png" alt="PowerUp">
+    </div>
+
+    <div class="rtsb">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="media/pcpcpcpc.png" alt="PC">
+                </div>
+                <div class="col" id="storepic">
+                    <h1>READY TO SHIP BUILDS</h1>
+                    <h5 class="h5txt">DreamFlow PC's Ready To Ship range features our most popular Custom PC configurations – built, benchmarked and ready to go in a day. Each build comes crafted with extraordinary components and optimised for maximum power at every price point.</h5>
+                    <a href="gamingpc.html" class="btn btn-primary">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="btncontact">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>DreamyFlow HQ</h1>
+                    <h5 class="h5txt">DreamyFlow PC, is now in Nanyang Polytechnic. This showroom aims to bring the largest range of custom PC products in Singapore, and highlight how each element of a consumer's Custom PC setup changes accentuates their work and play routines. Complete your dream setup all in one space!</h5>
+                    <a href="contact.html" class="btn btn-primary">View More</a>
+                </div>
+                <div class="col" id="storepic">
+                    <img src="media/shoppic.png" alt="Store Picture">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="information">
+            <div class="container">
+                <div class="row">
+                    <div class="col order-first">
+                        <h5>PRODUCTS</h5>
+                        <br>
+                        <h6>
+                            <a class="noblue" href="gamingpc.html">Desktops</a>
+                            <br>
+                        </h6>
+                    </div>
+                    <div class="col">
+                        <h5>COMPANY</h5>
+                        <br>
+                        <h6>
+                            <a class="noblue" href="aboutus.html">About</a>
+                            <br>
+                            <a class="noblue" class="bottomlink" href="contact.html">Contact</a><br>
+                            <a class="noblue" class="bottomlink" href="event.html">Events</a>
+                        </h6>
+                    </div>
+                    <div class="col order-last">
+                        <h5>Contact Us</h5>
+                        <br>
+                        <h6>
+                            DREAMYFLOW SHOWROOM:
+                            <a class="noblue" target="_blank" href="https://www.google.com/maps/place/Nanyang+Polytechnic/@1.3797006,103.8470658,17z/data=!3m1!5s0x31da1443e9724021:0xa2415cff461e8403!4m10!1m2!2m1!1snanyang+polytechnic!3m6!1s0x31da16eb64b0249d:0xe5f10ff680eed942!8m2!3d1.37995!4d103.8489487!15sChNuYW55YW5nIHBvbHl0ZWNobmljkgEScG9seXRlY2huaWNfc2Nob29s4AEA!16zL20vMDN4Njkz?entry=ttu"><br>
+                                180 Ang Mo Kio Ave 8, Singapore 569830
+                            </a>
+                            <p class="greytext">
+                                Email: dreamyflowpcs@gmail.com <br>
+                                Phone: +65 8911 5515
+                            </p>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
